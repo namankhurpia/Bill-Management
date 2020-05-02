@@ -44,7 +44,7 @@ export class DeletebillComponent implements OnInit {
     this.isFetching = true;
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {
@@ -78,7 +78,7 @@ export class DeletebillComponent implements OnInit {
     //console.log("cancel bill cliked " + position );
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {
@@ -92,7 +92,7 @@ export class DeletebillComponent implements OnInit {
               {
                 //console.log(key);
                 
-                this.http.patch<any>('https://generatebill.firebaseio.com/'+this.msgus+'/'+key+'.json',{iscancelled:true})
+                this.http.patch<any>('https://urlhere.com/'+this.msgus+'/'+key+'.json',{iscancelled:true})
                 .subscribe((data) =>{
                     console.log("REQUEST SECCUESS");
                     //

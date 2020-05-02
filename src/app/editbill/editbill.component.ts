@@ -59,7 +59,7 @@ export class EditbillComponent implements OnInit {
     this.isFetching = true;
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.firebaseio.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {
@@ -91,7 +91,7 @@ export class EditbillComponent implements OnInit {
     
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {

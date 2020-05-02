@@ -50,7 +50,7 @@ export class ViewbillComponent implements OnInit {
     this.isFetching = true;
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {
@@ -101,7 +101,7 @@ export class ViewbillComponent implements OnInit {
     //console.log("view bill cliked " + position );
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {

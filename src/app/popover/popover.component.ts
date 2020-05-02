@@ -159,7 +159,7 @@ export class PopoverComponent implements OnInit {
 
     console.log("SUBMIT MADE");
     
-    this.http.patch<any>('https://generatebill.firebaseio.com/'+this.msgus+'/'+this.key+'.json',{total:this.newtotal, name: this.newname, date: this.newdate, p1:this.newp1,v1:this.newv1, p2:this.newp2,v2:this.newv2,p3:this.newp3,v3:this.newv3,p4:this.newp4,v4:this.newv4,p5:this.newp5,v5:this.newv5,financialyear:this.newfinancialyear,totalinwords:this.totalinwords})
+    this.http.patch<any>('https://urlhere.com/'+this.msgus+'/'+this.key+'.json',{total:this.newtotal, name: this.newname, date: this.newdate, p1:this.newp1,v1:this.newv1, p2:this.newp2,v2:this.newv2,p3:this.newp3,v3:this.newv3,p4:this.newp4,v4:this.newv4,p5:this.newp5,v5:this.newv5,financialyear:this.newfinancialyear,totalinwords:this.totalinwords})
                 .subscribe((data) =>{
 
                   Swal.fire(

@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
     this.password = this.loginForm.get('password').value;
 
     //console.log("username is "+this.username+" password "+this.password);
-    if(this.username=="bhupesh" && this.password=="bhupesh")
+    if(this.username=="" && this.password=="")
     {
       this.signinholder.trylogin(this.username,this.password);
 
@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
       this.router.navigate(['/home/']);
 
     }
-    else if(this.username=="palash" && this.password=="palash")
+    else if(this.username=="" && this.password=="")
     {
       this.signinholder.trylogin(this.username,this.password);
 
@@ -61,7 +61,7 @@ export class LoginComponent implements OnInit {
       
       this.router.navigate(['/home/']);
     }
-    else if(this.username=="calculation" && this.password=="calculation")
+    else if(this.username=="" && this.password=="")
     {
       this.signinholder.trylogin(this.username,this.password);
       Swal.fire(

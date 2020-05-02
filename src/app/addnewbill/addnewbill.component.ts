@@ -135,7 +135,7 @@ export class AddnewbillComponent implements OnInit {
       this.dss.changemessage(this.name,this.date,this.total,this.count,this.p1,this.p2,this.p3,this.p4,this.p5,this.v1,this.v2,this.v3,this.v4,this.v5,"false",this.financialyear,this.totalinwords);
       
     // console.log(this.total  );
-      this.http.post<any>('https://generatebill.firebaseio.com/'+this.msgus+'.json',{ name: this.name, date: this.date,total:this.total,count:this.count, p1:this.p1,v1:this.v1, p2:this.p2,v2:this.v2,p3:this.p3,v3:this.v3,p4:this.p4,v4:this.v4,p5:this.p5,v5:this.v5,iscancelled:false,financialyear:this.financialyear,totalinwords:this.totalinwords})
+      this.http.post<any>('https://urlhere.com/'+this.msgus+'.json',{ name: this.name, date: this.date,total:this.total,count:this.count, p1:this.p1,v1:this.v1, p2:this.p2,v2:this.v2,p3:this.p3,v3:this.v3,p4:this.p4,v4:this.v4,p5:this.p5,v5:this.v5,iscancelled:false,financialyear:this.financialyear,totalinwords:this.totalinwords})
       .subscribe(responseData =>{
   
         //console.log(responseData)
@@ -164,7 +164,7 @@ export class AddnewbillComponent implements OnInit {
     this.isFetching = true;
     this.http
       .get<{ [key: string]: Post }>(
-        'https://generatebill.firebaseio.com/'+this.msgus+'.json'
+        'https://urlhere.firebaseio.com/'+this.msgus+'.json'
       )
       .pipe(
         map(responseData => {
