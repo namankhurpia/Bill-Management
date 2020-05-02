@@ -4,6 +4,12 @@
 This project is for creating Bills for my Dad's Organization, it allows to create/delete/edit/cancel bills for different users.
 App is hosted on the URL - https://generatebill.web.app/
 
+## FRAMEWORK - ANGULAR
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+
+
 ## SCREENS-
 
 ![alt text](https://raw.githubusercontent.com/namankhurpia/Bill-Management/master/Screenshot%20(24).png)
@@ -11,10 +17,6 @@ App is hosted on the URL - https://generatebill.web.app/
 ![alt text](https://raw.githubusercontent.com/namankhurpia/Bill-Management/master/Screenshot%20(26).png)
 
 
-## FRAMEWORK - ANGULAR
-
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
 ## Development server
 
