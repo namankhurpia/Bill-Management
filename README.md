@@ -4,6 +4,13 @@
 This project is for creating Bills for my Dad's Organization, it allows to create/delete/edit/cancel bills for different users.
 App is hosted on the URL - https://generatebill.web.app/
 
+## SCREENS-
+
+![alt text](https://raw.githubusercontent.com/namankhurpia/Bill-Management/master/Screenshot%20(24).png)
+![alt text](https://raw.githubusercontent.com/namankhurpia/Bill-Management/master/Screenshot%20(25).png)
+![alt text](https://raw.githubusercontent.com/namankhurpia/Bill-Management/master/Screenshot%20(26).png)
+
+
 ## FRAMEWORK - ANGULAR
 
 
