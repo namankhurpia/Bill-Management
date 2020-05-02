@@ -1,0 +1,97 @@
+<button class="close" mat-button (click)="close()">X</button>
+<form  [formGroup]="editform" (ngSubmit)="onSubmitEdit()">
+    
+        <h2 mat-dialog-title>EDIT BILL</h2> 
+        
+    
+        <mat-dialog-content>
+          Enter New details   
+          <hr>
+          
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter name of bill bearer          /     Previous - {{oldname}}</span>
+                <input class="input100" type="text" formControlName="name"name="name" placeholder="Enter name">
+            </div>
+
+            <mat-form-field  appearance="fill">
+                <mat-select placeholder="Select financial year" formControlName="financialyear"  name="food" >
+                  <mat-option *ngFor="let c of organizationTypeArr" [value]="c.id">
+                    {{c.value}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter date         /     Previous - {{olddate}}</span>
+                <input formControlName="date" class="input100" type="text" name="date" placeholder="Enter date">
+            </div>
+            
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter particular name         /     Previous - {{oldp1}}</span>
+                <input class="input100" type="text" formControlName="p1" name="p1" placeholder="Enter particular name">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter particular value          /   Previous - {{oldv1}}</span>
+                <input formControlName="v1" class="input100" type="number" name="v1" placeholder="Enter particular value">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter particular name           /   Previous - {{oldp2}}</span>
+                <input class="input100" type="text" formControlName="p2" name="p2" placeholder="Enter particular name">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter particular value          /   Previous - {{oldv2}}</span>
+                <input formControlName="v2" class="input100" type="number" name="v2" placeholder="Enter particular value">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter particular name          /    Previous - {{oldp3}}</span>
+                <input class="input100" type="text" formControlName="p3" name="p3" placeholder="Enter particular name">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter particular value          /   Previous - {{oldv3}}</span>
+                <input formControlName="v3" class="input100" type="number"name="v3" placeholder="Enter particular value">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter particular name          /    Previous - {{oldp4}}</span>
+                <input class="input100" type="text" formControlName="p4" name="p4" placeholder="Enter particular name">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter particular value         /    Previous - {{oldv4}}</span>
+                <input formControlName="v4" class="input100" type="number" name="v4" placeholder="Enter particular value">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Enter particular name           /   Previous - {{oldp5}}</span>
+                <input class="input100" type="text" formControlName="p5" name="p5" placeholder="Enter particular name">
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                <span class="label-input100">Enter particular value         /    Previous - {{oldv5}}</span>
+                <input formControlName="v5" class="input100" type="number" name="v5" placeholder="Enter particular value">
+            </div>
+    
+          
+          
+         
+        </mat-dialog-content>
+        
+        
+        <mat-dialog-actions>
+            <div  class="container-contact100-form-btn">
+                <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button  class="contact100-form-btn">
+                        SUBMIT
+                    </button>
+                </div>
+                </div>
+        </mat-dialog-actions>
+      
+      
+</form>

@@ -1,0 +1,116 @@
+<body >
+
+	
+
+	<div class="container-contact100" *ngIf=session >
+		<div class="wrap-contact100">
+			<form [formGroup]="addform" class="contact100-form validate-form">
+				<div class="inline">
+				<span class="contact100-form-title">
+					Bill number {{count}}
+				</span>
+
+				<mat-form-field style="margin-left: 150px;" appearance="fill">
+					<mat-select placeholder="Select financial year" formControlName="financialyear"  name="food" >
+					  <mat-option *ngFor="let c of organizationTypeArr" [value]="c.id">
+						{{c.value}}
+					  </mat-option>
+					</mat-select>
+				  </mat-form-field>
+				  
+				</div>
+				
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					
+					<input class="input100" type="text" formControlName="name"name="name" placeholder="Enter name">
+				</div>
+
+				
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+					
+					<input formControlName="date" class="input100" type="text" name="date" placeholder="Enter date">
+				</div>
+				
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					
+					<input class="input100" type="text" formControlName="p1" name="p1" placeholder="Enter particular name">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+					
+					<input formControlName="v1" class="input100" type="number" name="v1" placeholder="Enter particular value">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					
+					<input class="input100" type="text" formControlName="p2" name="p2" placeholder="Enter particular name">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+					
+					<input formControlName="v2" class="input100" type="number" name="v2" placeholder="Enter particular value">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					
+					<input class="input100" type="text" formControlName="p3" name="p3" placeholder="Enter particular name">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+					
+					<input formControlName="v3" class="input100" type="number"name="v3" placeholder="Enter particular value">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+			
+					<input class="input100" type="text" formControlName="p4" name="p4" placeholder="Enter particular name">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+					
+					<input formControlName="v4" class="input100" type="number" name="v4" placeholder="Enter particular value">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
+					
+					<input class="input100" type="text" formControlName="p5" name="p5" placeholder="Enter particular name">
+				</div>
+
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" >
+				
+					<input formControlName="v5" class="input100" type="number" name="v5" placeholder="Enter particular value">
+				</div>
+				
+				
+        
+
+
+      
+
+				<div  class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button (click)="submit()" class="contact100-form-btn">
+							SUBMIT
+						</button>
+					</div>
+        </div>
+        
+			</form>
+		</div>
+
+	</div>
+
+
+
+	
+
+</body>
+
+
+
+
+
+

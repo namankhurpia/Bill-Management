@@ -1,0 +1,35 @@
+.custombtn
+{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.card:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+.card{
+    width: 18%;
+    max-width:18%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #E8E8E8;
+    border: none;
+    margin-top: 5%;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.leftabit{
+    margin-left: 5%;
+}
+.leftabita{
+    margin-left: 5%;
+    font-size: 11px;
+}
+.textwhite{
+    color: white;
+}

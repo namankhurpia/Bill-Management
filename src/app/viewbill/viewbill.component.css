@@ -1,0 +1,35 @@
+.cardnaman{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+    font-size: large;
+
+}
+p{
+    
+    margin-left: 20px;
+    color: black;
+    display:inline;
+    word-wrap: break-word;
+}
+
+.card:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    
+}
+
+.nbtn{
+    margin-left: 20px;
+}
+
+
+

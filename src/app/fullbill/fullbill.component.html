@@ -1,0 +1,71 @@
+
+
+<div id="myDiv">
+<img [hidden]="!userb" style="   display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+height: 90%; 
+width: 90%; 
+size:A4
+    "
+src="assets/bhupesh_bill.png" />
+
+<img [hidden]="!userp" style="   display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+height: 90%; 
+width: 90%; 
+size:A4
+    "
+src="assets/palash_bill.png" />
+
+<img [hidden]="!userc" style="   display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+height: 90%; 
+width: 90%; 
+size:A4
+    "
+src="assets/calculation_bill.png" />
+
+<div class="name">{{newname}}</div>
+<div class="ione">{{ newp1 }}</div>
+<div class="itwo">{{ newp2 }}</div>
+<div class="ithree">{{ newp3 }}</div>
+<div class="ifour">{{ newp4 }}</div>
+<div class="ifive">{{ newp5 }}</div>
+<div class="date">{{newdate}}</div>
+<div class="invoice">{{newcount}}/{{newfinancialyear}}</div>
+<div class="totalamt">{{newtotal}}</div>
+<div class="vone">{{ newv1 }}</div>
+<div class="vtwo">{{ newv2 }}</div>
+<div class="vthree">{{ newv3 }}</div>
+<div class="vfour">{{ newv4 }}</div>
+<div class="vfive">{{ newv5 }}</div>
+<div class="totalinwords">{{ newtotalinwords }}</div>
+<!--<div class="name">Mahendra Builder and Developers bhopal</div>
+<div class="ione">particular one</div>
+<div class="itwo"> particular one </div>
+<div class="ithree"> particular one </div>
+<div class="ifour"> particular one </div>
+<div class="ifive"> particular one </div>
+<div class="date">12-12-2020</div>
+<div class="invoice">102/20-21</div>
+<div class="totalamt">₹12000</div>
+<div class="vone">₹12000</div>
+<div class="vtwo"> ₹12000 </div>
+<div class="vthree">₹12000 </div>
+<div class="vfour"> ₹12000 </div>
+<div class="vfive"> ₹12000 </div>-->
+
+<button style="margin-left:auto;margin-right:auto;display:block;" (click)="printbill()" >PRINT BILL</button>
+</div>
+
+
+

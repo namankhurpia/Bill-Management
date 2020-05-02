@@ -1,0 +1,160 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  
+  /* Top left text */
+  .name {
+      margin-left: 51%;
+      margin-top: 22.5%;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    font-size: 20px;
+
+    
+  }
+  
+  /* Top right text */
+
+
+  .date {
+    margin-left: 52%;
+    margin-top: 18.5%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  }
+
+  .invoice {
+    margin-left: 57%;
+    margin-top: 16%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  }
+  
+  /* Bottom right text */
+  .totalamt {
+      margin-bottom: 43%;
+      margin-left: 75%;
+      left: 16px;
+    position: absolute;
+    bottom: 8px;
+    
+    font-size: 35px;
+    
+  }
+
+  .ione{
+    margin-left: 8%;
+    margin-top: 55%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 35px;
+  
+  }
+  .itwo{
+    
+    margin-top: 59%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 35px;
+  margin-left: 8%;
+  
+  }
+  .ithree {
+    font-size: 35px;
+  margin-left: 8%;
+    margin-top: 63%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+  }
+  .ifour{
+    font-size: 35px;
+  margin-left: 8%;
+    margin-top: 67%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+  }
+  .ifive{
+    font-size: 35px;
+  margin-left: 8%;
+    margin-top: 71%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  }
+
+  .vone{
+    margin-left: 75%;
+  left: 16px;
+    font-size: 35px;
+    margin-top: 55%;
+    position: absolute;
+    top: 8px;
+    
+  
+  }
+  .vtwo{
+    font-size: 35px;
+    margin-left: 75%;
+    left: 16px;
+    margin-top: 59%;
+    position: absolute;
+    top: 8px;
+    
+  
+  }
+  .vthree{
+    font-size: 35px;
+    margin-left: 75%;
+    left: 16px;
+    margin-top: 63%;
+    position: absolute;
+    top: 8px;
+    
+  
+  }
+  .vfour{
+    font-size: 35px;
+    margin-left: 75%;
+    left: 16px;
+    margin-top: 67%;
+    position: absolute;
+    top: 8px;
+    
+  
+  }
+  .vfive{
+    font-size: 35px;
+    margin-left: 75%;
+    left: 16px;
+    margin-top: 71%;
+    position: absolute;
+    top: 8px;
+    
+  
+  }
+
+  .totalinwords{
+    margin-bottom: 31%;
+    margin-left: 8.5%;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 28px;
+  }
+

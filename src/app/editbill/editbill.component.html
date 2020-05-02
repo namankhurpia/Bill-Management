@@ -1,0 +1,21 @@
+
+<div *ngIf=session >
+    <p *ngIf="loadedPosts.length < 1 && !isFetching">No posts available!</p>
+    <ul  *ngIf="loadedPosts.length >= 1 && !isFetching">
+      <div class="card cardnaman"  *ngFor="let post of loadedPosts">
+       
+        <p class="name">Name of bill bearer - {{ post.name }}</p>
+        <div  class="inline">
+        <p >Bill date - {{ post.date }}</p>
+        <p >Amount - {{post.total}}</p>
+        <Button *ngIf=!post.iscancelled class="btn btn-primary nbtn" (click)="editbill(post.count,post)" >EDIT BILL</Button>
+        <p *ngIf=post.iscancelled style="margin-left: 90px; color: red;">CANCELLED</p>
+      </div>
+        
+        
+
+      </div>
+    </ul>
+    <p *ngIf="isFetching">Loading...</p>     
+  </div>
+
