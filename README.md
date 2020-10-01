@@ -1,7 +1,7 @@
 # Billmanagement
 
 
-This project is for creating Bills for my Dad's Organization, it allows to create/delete/edit/cancel bills for different users.
+This project is advance version for creating Bills for my Dad's Organization, it allows to create/delete/edit/cancel bills for different users.
 App is hosted on the URL - https://generatebill.web.app/
 
 ## FRAMEWORK - ANGULAR
